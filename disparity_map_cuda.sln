@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "disparity_map_cuda", "disparity_map_cuda\disparity_map_cuda.vcxproj", "{AEBCB52E-2095-4EB6-8F7D-F0B7923F5313}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEBCB52E-2095-4EB6-8F7D-F0B7923F5313}.Debug|x64.ActiveCfg = Debug|x64
+		{AEBCB52E-2095-4EB6-8F7D-F0B7923F5313}.Debug|x64.Build.0 = Debug|x64
+		{AEBCB52E-2095-4EB6-8F7D-F0B7923F5313}.Release|x64.ActiveCfg = Release|x64
+		{AEBCB52E-2095-4EB6-8F7D-F0B7923F5313}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8D11CA1-2E26-4B94-B513-B83DE494B700}
+	EndGlobalSection
+EndGlobal
