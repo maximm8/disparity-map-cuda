@@ -58,13 +58,7 @@ int main()
 
     params = { wind_width, wind_height, disp_min, disp_max, CostFunction::SSD, CostOptimizer::COSTMIN };
 
-    //StereoParams params = { wind_width, wind_height, disp_min, disp_max, CostFunction::SAD, CostOptimizer::COSTMIN};
-    //StereoParams params = { wind_width, wind_height, disp_min, disp_max, CostFunction::SSD, CostOptimizer::COSTMIN};
-    //StereoParams params = { wind_width, wind_height, disp_min, disp_max, CostFunction::NCC, CostOptimizer::COSTMAX};
-    //StereoParams params = { wind_width, wind_height, disp_min, disp_max, CostFunction::ZNCC, CostOptimizer::COSTMAX};
-
-    //Disparity dsp(params, img1.size().width, img1.size().height, img1.channels());
-    //dsp.SetParams(params);
+    
     dsp = new Disparity(params, img_width, img_height, img_channels);
 
     // Create slider to change some parameters in relatimer 
